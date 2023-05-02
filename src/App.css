@@ -12,7 +12,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+/* 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +36,90 @@
     transform: rotate(360deg);
   }
 }
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.calculator {
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+  width: 100%;
+  padding: 10px;
+  background-color: #e6e6e6;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.btn {
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: #d4d4d4;
+}
+
+.operator,
+.equal {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.operator:hover,
+.equal:hover {
+  background-color: #46a049;
+}
+
+.clear {
+  background-color: #f44336;
+  color: #ffffff;
+}
+
+.clear:hover {
+  background-color: #e53935;
+}
+
+.backspace {
+  background-color: #ffc107;
+  color: #ffffff;
+}
+
+.backspace:hover {
+  background-color: #ffb300;
+}
+
+.zero {
+  grid-column: span 2;
+} */
+
+
